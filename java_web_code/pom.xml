@@ -22,12 +22,6 @@
         </license>
     </licenses>
 
-    <scm>
-        <url>https://github.com/pvorb/wildfly-spring-boot-sample</url>
-        <connection>scm:git:git://github.com/pvorb/wildfly-spring-boot-sample.git</connection>
-        <developerConnection>scm:git:git@github.com:pvorb/wildfly-spring-boot-sample.git</developerConnection>
-    </scm>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
