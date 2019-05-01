@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleResource {
 
     @RequestMapping("/")
-    public String hello() {
+    public String helloo() {
         return "Aplicatie testare pipeline Devops!";
     }
 
