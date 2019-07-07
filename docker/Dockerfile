@@ -5,7 +5,8 @@ MAINTAINER Prasanjit Singh <nixgurus@gmail.com>
 COPY wildfly-8.2.0.Final /opt/wildfly
 
 # install example app on wildfy
-COPY wildfly-spring-boot-sample-1.0.0.war /opt/wildfly/standalone/deployments/
+#COPY wildfly-spring-boot-sample-1.0.0.war /opt/wildfly/standalone/deployments/
+COPY /var/lib/jenkins/sharedspace/shared/java_web_code/target/wildfly-spring-boot-sample-1.0.0.war /opt/wildfly/standalone/deployments/
 
 RUN java -version
 
