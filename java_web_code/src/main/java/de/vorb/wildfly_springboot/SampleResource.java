@@ -8,7 +8,7 @@ public class SampleResource {
 
     @RequestMapping("/")
     public String hello() {
-        return "Aplicatie testare pipeline Devops! Versiune 4.0";
+        return "Versiunea 4.0";
     }
 
 }
